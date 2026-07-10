@@ -20,9 +20,15 @@
 		</div>
 		<br>
 		<div>
-			<label>Open external Link in a new tab: </label>
-			<a href="https://www.google.com" target="_blank">Navigate to Google</a>
+			<label>Open external Link in a new window (less recommended): </label>
+			<a href="https://www.google.com" onclick="window.open(this.href, 'newwindow', 'width=800,height=600'); return false;">Navigate to Google in a new Window</a>
 		</div>
+		<br>
+		<div>
+			<label>Contact: </label>
+			<!-- Relative path -->
+			<a href="pages/contact.html" target="_blank">Email Us</a>
+		</div>		
 	</form>
 </body>
 </html>

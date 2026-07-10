@@ -1,2 +1,22 @@
 /* style for h2 */
 h2 {color:blue;}
+
+/* Unvisited link */
+a:link {
+    color: blue;
+}
+
+/* Visited link */
+a:visited {
+    color: purple;
+}
+
+/* Mouse over the link */
+a:hover {
+    color: red;
+}
+
+/* While clicking */
+a:active {
+    color: orange;
+}
